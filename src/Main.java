@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -6,6 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("ведите числа ");
         ArrayList<Integer> numbers = new ArrayList<>();
 
         while (true) {
@@ -18,4 +20,7 @@ public class Main {
                 break;
         }
         System.out.println(numbers);
+         numbers.sort(Comparator.naturalOrder());
+        System.out.println(numbers);
+
     }}
