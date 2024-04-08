@@ -19,6 +19,7 @@ public class Main {
             else
                 break;
         }
+
         System.out.println(numbers);
          numbers.sort(Comparator.naturalOrder());
         System.out.println(numbers);
